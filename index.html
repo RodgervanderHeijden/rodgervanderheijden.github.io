@@ -18,7 +18,8 @@
 			<div id="wrapper" class="divided">
 
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+					<section class="banner style3 orient-left content-align-left image-position-right fullscreen
+					onload-image-fade-left onload-content-fade-right">
 						<div class="content">
 							<h1>Rodger van der Heijden</h1>
 							<p class="major">Data scientist with many interests currently looking for a data related
@@ -35,7 +36,8 @@
 					</section>
 
 				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+					<section class="spotlight style1 orient-right content-align-left image-position-center
+					onscroll-image-fade-right onscroll-content-fade-left" id="first">
 						<div class="content">
 							<h2>Bureau Dupin</h2>
 							<p>Despite the best efforts of the police and a €15.000 reward for the case-cracking tip,
@@ -48,12 +50,13 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+							<img src="./images/bureaudupin/marjanijholt.jpg" alt="" />
 						</div>
 					</section>
 
 				<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<section class="spotlight style1 orient-left content-align-left image-position-center
+					onscroll-image-fade-left onscroll-content-fade-right">
 						<div class="content">
 							<h2>Rodger van der Heijden Consultancy</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -62,12 +65,15 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight02.jpg" alt="" />
+							<img src="images/rvdhc/lukas-blazek-mcSDtbWXUZU-unsplash.jpg" alt="" />
+							Photo by <a href="https://unsplash.com/@goumbik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lukas Blazek</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 						</div>
 					</section>
 
 				<!-- Four -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+					<section class="spotlight style1 orient-right content-align-left image-position-center
+					onscroll-image-fade-right onscroll-content-fade-left">
 						<div class="content">
 							<h2>Subversive crime in the Netherlands</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
@@ -76,216 +82,135 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight03.jpg" alt="" />
+							<img src="images/riec/maxim-hopman-PEJHULxUHZs-unsplash.jpg" alt="" />
+							Photo by <a href="https://unsplash.com/@nampoh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maxim Hopman</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 						</div>
 					</section>
 
 				<!-- Five -->
 					<section class="wrapper style1 align-center">
 						<div class="inner">
-							<h2>Some smaller projects</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<h2>Individual projects</h2>
+							<p>Next to my professional experience, I have been involved in several projects. An
+								overview of projects is shown below, along with a short summary. I will happily provide
+								more information if you're interested (provided that NDAs allow me to).</p>
 						</div>
 
 						<!-- Gallery -->
-							<div class="gallery style2 medium lightbox onscroll-fade-in">
+							<div class="gallery style2 lightbox large onscroll-fade-in">
 								<article>
-									<a href="images/gallery/fulls/01.jpg" class="image">
-										<img src="images/gallery/thumbs/justus-menke-Xywi2MePlYQ-unsplash.jpg" alt="" />
+									<a href="images/gallery/justus-menke-Xywi2MePlYQ-unsplash.jpg" class="image">
+										<img src="images/gallery/justus-menke-Xywi2MePlYQ-unsplash.jpg" alt=""
+										height=inherit/>
 										Photo by <a href="https://unsplash.com/@justusmenke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Justus Menke</a> on <a href="https://unsplash.com/s/photos/deforestation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 									</a>
 									<div class="caption">
-										<h3>WWF</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>Deforestation</h3>
+										<p>The island of Kalimantan contains a big rainforest. At least, for now it
+											does. In a case of the World Wilflife Fund (WWF) and Deloitte we were given
+											access to a dataset detailing the rainforest in 15 by 15 meter plots of
+											land - which resulted in 325 million data points - which was being used to
+											predict deforestation. Fortunately, the dataset is very, very imbalanced
+											(0.000018% minority class).</p>
+										<p>We investigated several resampling techniques
+											to better balance the dataset and subsequently trained models to see
+											whether the resampling had any adverse effect. Unfortunately I'm not at
+											liberty to discuss the findings in detail, but with a combination of
+											undersampling the majority class and generating synthetic datapoints of the
+											minority class we achieved no significant loss in predictive performance
+											while speeding up training threefold.</p>
 									</div>
 								</article>
 								<article>
-									<a href="images/gallery/fulls/02.jpg" class="image">
-										<img src="images/gallery/thumbs/02.jpg" alt="" />
+									<a href="images/gallery/antonio-janeski-GmdWPs9oASU-unsplash.jpg" class="image">
+										<img src="images/gallery/antonio-janeski-GmdWPs9oASU-unsplash.jpg" alt="" />
+
 									</a>
 									<div class="caption">
-										<h3>Feugiat Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>Mobility as a Service</h3>
+										<p>We analyzed how the coverage and availability of public transport in
+											smaller villages impacted the desires inhabitants have of public transport.
+										</p>
 									</div>
 								</article>
 								<article>
-									<a href="images/gallery/fulls/03.jpg" class="image">
-										<img src="images/gallery/thumbs/03.jpg" alt="" />
+									<a href="images/gallery/chase-fade-fvUv8dLKuSI-unsplash.jpg" class="image">
+										<img src="images/gallery/chase-fade-fvUv8dLKuSI-unsplash.jpg" alt="" />
+
 									</a>
 									<div class="caption">
-										<h3>Magna Amet</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>Shining a light on the dark web</h3>
+										<p>The dark web is home to marketplaces where criminals can easily sell illicit
+											substances. We scraped one such marketplace, analyzed the data and
+											visualized our findings.</p>
 									</div>
 								</article>
 								<article>
-									<a href="images/gallery/fulls/04.jpg" class="image">
-										<img src="images/gallery/thumbs/04.jpg" alt="" />
+									<a href="images/gallery/markus-spiske-RX-BevgxSXs-unsplash.jpg" class="image">
+										<img src="images/gallery/markus-spiske-RX-BevgxSXs-unsplash.jpg" alt="" />
+
 									</a>
 									<div class="caption">
-										<h3>Sed Tempus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>Diffusion of extremism</h3>
+										<p>Polarizing opinions are seldom developed in isolation: one's social network
+											is an important context where extreme opinions can be cultivated. We study
+											whether we can witness and explain why and how radically right opinions
+											spread through a digital network with loose ties.</p>
 									</div>
 								</article>
 								<article>
-									<a href="images/gallery/fulls/05.jpg" class="image">
-										<img src="images/gallery/thumbs/05.jpg" alt="" />
+									<a href="images/gallery/cdc-4U6qzwNu-Ns-unsplash.jpg" class="image">
+										<img src="images/gallery/cdc-4U6qzwNu-Ns-unsplash.jpg" alt="" />
+
 									</a>
 									<div class="caption">
-										<h3>Ultrices Magna</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>Chest X-rays: a case against deep learning?</h3>
+										<p>Research into using deep learning architectures in medical contexts has
+											generated a lot of interest of the last years. Well-known master of data
+										science Andrew Ng claimed to have created a model outperforming domain experts,
+										I set out to verify (and improve) his findings.</p>
 									</div>
 								</article>
 								<article>
-									<a href="images/gallery/fulls/06.jpg" class="image">
-										<img src="images/gallery/thumbs/06.jpg" alt="" />
+									<a href="images/gallery/roth-melinda-o4SVMSnWET4-unsplash.jpg" class="image">
+										<img src="images/gallery/roth-melinda-o4SVMSnWET4-unsplash.jpg" alt="" />
+
 									</a>
 									<div class="caption">
-										<h3>Sed Tempus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>OddSpot</h3>
+										<p>Sometimes you check your skin and see a new spot developing. You might even
+											say: "what an odd spot". I studied whether a limited set of questions could
+											allow for diagnosing two types of precursors of skin cancer.</p>
 									</div>
 								</article>
 								<article>
-									<a href="images/gallery/fulls/07.jpg" class="image">
-										<img src="images/gallery/thumbs/07.jpg" alt="" />
+									<a href="images/gallery/hannah-wright-ZzWsHbu2y80-unsplash.jpg" class="image">
+										<img src="images/gallery/hannah-wright-ZzWsHbu2y80-unsplash.jpg" alt="" />
+
 									</a>
 									<div class="caption">
-										<h3>Ipsum Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
+										<h3>Language learning assistant</h3>
+										<p>Though Duolingo and its competitors sport many features, I felt like I could
+											implement some adjustments to provide a better learning experience for me
+											specifically. I implemented a self-learning algorithm that matches
+											sentences with my (evolving) language proficiency and included voice
+											control support.</p>
 									</div>
 								</article>
-								<article>
-									<a href="images/gallery/fulls/08.jpg" class="image">
-										<img src="images/gallery/thumbs/08.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Risus</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/09.jpg" class="image">
-										<img src="images/gallery/thumbs/09.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Tempus Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/10.jpg" class="image">
-										<img src="images/gallery/thumbs/10.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Sed Etiam</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/11.jpg" class="image">
-										<img src="images/gallery/thumbs/11.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Magna Lorem</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
-								<article>
-									<a href="images/gallery/fulls/12.jpg" class="image">
-										<img src="images/gallery/thumbs/12.jpg" alt="" />
-									</a>
-									<div class="caption">
-										<h3>Ipsum Dolor</h3>
-										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
-										<ul class="actions fixed">
-											<li><span class="button small">Details</span></li>
-										</ul>
-									</div>
-								</article>
+
 							</div>
 
 					</section>
-
-				<!-- Six -->
-					<section class="wrapper style1 align-center">
-						<div class="inner">
-							<h2>Tech stack</h2>
-							<p>An overview of my most used tech stack.</p>
-							<div class="items style1 medium onscroll-fade-in">
-								<section>
-									<span class="icon style2 major fa-gem"></span>
-									<h3>Python</h3>
-									<p>a lot professional</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-save"></span>
-									<h3>R</h3>
-									<p>Much skill</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-chart-bar"></span>
-									<h3>Blockchain</h3>
-									<p>Wow</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-wifi"></span>
-									<h3>Java</h3>
-									<p>deze niet</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-cog"></span>
-									<h3>Git</h3>
-									<p>very good</p>
-								</section>
-								<section>
-									<span class="icon solid style2 major fa-money-bill"></span>
-									<h3>geld klappen</h3>
-									<p>amazing</p>
-								</section>
-
-							</div>
-						</div>
-					</section>
-
 
 
 				<!-- Footer -->
-					<footer class="wrapper style1 align-center" id="contact">
+					<footer class="wrapper style1 align-center onscroll-fade-in" id="contact">
 						<div class="inner">
+							<h3>Reach out to me:</h3>
 							<ul class="icons">
+								<h3>CV DOWNLOAD BUTTON</h3>
 								<li><a href="https://www.linkedin.com/in/rodgervanderheijden/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto:rodgervanderheijden@gmail.com" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 								<li><a href="https://github.com/RodgervanderHeijden" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
