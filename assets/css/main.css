@@ -2152,6 +2152,16 @@ input, select, textarea {
 			padding: 0 2em;
 		}
 
+		input[type="button"].verysmall,
+		button.verysmall,
+		.button.verysmall {
+			font-size: 0.6rem;
+			height: 2.8em;
+			line-height: 2.8em;
+			border-radius: 2.8em;
+			padding: 0 1em;
+		}
+
 		input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
@@ -2698,7 +2708,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
 		padding-left: 1rem;
 	}
 
