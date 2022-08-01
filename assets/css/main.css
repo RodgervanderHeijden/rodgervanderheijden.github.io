@@ -6698,6 +6698,8 @@ input, select, textarea {
 		position: relative;
 		background-color: transparent;
 		/*height: 645px;*/
+		/*max-height: 65vh;*/
+		;
 	}
 
 		.gallery.style2 input, .gallery.style2 select, .gallery.style2 textarea {
@@ -6871,13 +6873,14 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			overflow: hidden;
-			/*width: 29rem;*/
-			min-width: 30vw;
-			min-width: 400px;
+			width: 25rem;
+			/*min-width: 52vw;*/
+			/*min-width: 450px;*/
 			/*width: 30%;*/
-			max-height: 600px;
+			/*max-height: 545px;*/
 			/*max-width: 38vw;*/
-			max-width: 70vw;
+			/*max-width: 40vw;*/
+			aspect-ratio: 1.2 / 1.45;
 		}
 
 			.gallery.style2 article .image {
