@@ -3914,13 +3914,13 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 736px) {
 
-			.banner.style3 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-				-moz-align-items: -moz-flex-start;
-				-webkit-align-items: -webkit-flex-start;
-				-ms-align-items: -ms-flex-start;
-				align-items: flex-start;
-			}
+    .banner.style3 {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+        -moz-align-items: -moz-flex-start;
+        -webkit-align-items: -webkit-flex-start;
+        -ms-align-items: -ms-flex-start;
+        align-items: flex-start;
+    }
 
 				.banner.style3 .image {
 					width: 15.75rem;
@@ -4112,25 +4112,25 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.banner.style4 {
-				padding: 5rem 5rem 3rem 5rem ;
-			}
+    .banner.style4 {
+        padding: 5rem 5rem 3rem 5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.banner.style4 {
-				padding: 4rem 4rem 2rem 4rem ;
-			}
+    .banner.style4 {
+        padding: 4rem 4rem 2rem 4rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.banner.style4 {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
-			}
+    .banner.style4 {
+        padding: 3.75rem 3rem 1.75rem 3rem;
+    }
 
 				.banner.style4 .image {
 					width: 11.375rem;
@@ -4157,13 +4157,13 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 736px) {
 
-			.banner.style4 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-				-moz-align-items: -moz-flex-start;
-				-webkit-align-items: -webkit-flex-start;
-				-ms-align-items: -ms-flex-start;
-				align-items: flex-start;
-			}
+    .banner.style4 {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+        -moz-align-items: -moz-flex-start;
+        -webkit-align-items: -webkit-flex-start;
+        -ms-align-items: -ms-flex-start;
+        align-items: flex-start;
+    }
 
 				.banner.style4 .image {
 					width: 8.125rem;
@@ -4270,25 +4270,25 @@ form > .fields > .field.third {
 
 /* Banner (style5) */
 
-	.banner.style5 {
-		padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background-color: inherit;
-		position: relative;
-		text-align: center;
-		overflow-x: hidden;
-	}
+.banner.style5 {
+    padding: 7rem 7rem 5rem 7rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-color: inherit;
+    position: relative;
+    text-align: center;
+    overflow-x: hidden;
+}
 
 		.banner.style5 .content {
 			position: relative;
@@ -4336,33 +4336,33 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.banner.style5 {
-				padding: 5rem 5rem 3rem 5rem ;
-			}
+    .banner.style5 {
+        padding: 5rem 5rem 3rem 5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.banner.style5 {
-				padding: 4rem 4rem 2rem 4rem ;
-			}
+    .banner.style5 {
+        padding: 4rem 4rem 2rem 4rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.banner.style5 {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
-			}
+    .banner.style5 {
+        padding: 3.75rem 3rem 1.75rem 3rem;
+    }
 
 		}
 
 		@media screen and (max-width: 736px) {
 
-			.banner.style5 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-			}
+    .banner.style5 {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+    }
 
 		}
 
@@ -4876,24 +4876,24 @@ form > .fields > .field.third {
 		text-align: left;
 	}
 
-		.spotlight.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
-			-moz-align-self: center;
-			-webkit-align-self: center;
-			-ms-align-self: center;
-			align-self: center;
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
-			-moz-flex-shrink: 1;
-			-webkit-flex-shrink: 1;
-			-ms-flex-shrink: 1;
-			flex-shrink: 1;
-			width: 65%;
-			max-width: 64rem;
-			margin: 0 auto;
-		}
+.spotlight.style1 .content {
+    padding: 7rem 7rem 5rem 7rem;
+    -moz-align-self: center;
+    -webkit-align-self: center;
+    -ms-align-self: center;
+    align-self: center;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    width: 65%;
+    max-width: 64rem;
+    margin: 0 auto;
+}
 
 		.spotlight.style1 .image {
 			-moz-flex-grow: 0;
@@ -4929,27 +4929,27 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlight.style1 .content {
-				padding: 5rem 5rem 3rem 5rem ;
-			}
+    .spotlight.style1 .content {
+        padding: 5rem 5rem 3rem 5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight.style1 .content {
-				padding: 4rem 4rem 2rem 4rem ;
-			}
+    .spotlight.style1 .content {
+        padding: 4rem 4rem 2rem 4rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.spotlight.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
-				width: 50%;
-				min-width: 0;
-			}
+    .spotlight.style1 .content {
+        padding: 3.75rem 3rem 1.75rem 3rem;
+        width: 50%;
+        min-width: 0;
+    }
 
 			.spotlight.style1 .image {
 				width: 50%;
@@ -4960,9 +4960,9 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style1 .content {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-			}
+    .spotlight.style1 .content {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+    }
 
 		}
 
@@ -5032,28 +5032,28 @@ form > .fields > .field.third {
 
 /* Spotlight (style2) */
 
-	.spotlight.style2 {
-		padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: row-reverse;
-		-webkit-flex-direction: row-reverse;
-		-ms-flex-direction: row-reverse;
-		flex-direction: row-reverse;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		position: relative;
-		overflow-x: hidden;
-		text-align: left;
-	}
+.spotlight.style2 {
+    padding: 7rem 7rem 5rem 7rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+}
 
 		.spotlight.style2 .content {
 			width: 44.5rem;
@@ -5092,25 +5092,25 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlight.style2 {
-				padding: 5rem 5rem 3rem 5rem ;
-			}
+    .spotlight.style2 {
+        padding: 5rem 5rem 3rem 5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight.style2 {
-				padding: 4rem 4rem 2rem 4rem ;
-			}
+    .spotlight.style2 {
+        padding: 4rem 4rem 2rem 4rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.spotlight.style2 {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
-			}
+    .spotlight.style2 {
+        padding: 3.75rem 3rem 1.75rem 3rem;
+    }
 
 				.spotlight.style2 .image {
 					width: 18.375rem;
@@ -5121,13 +5121,13 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style2 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-				-moz-align-items: -moz-flex-start;
-				-webkit-align-items: -webkit-flex-start;
-				-ms-align-items: -ms-flex-start;
-				align-items: flex-start;
-			}
+    .spotlight.style2 {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+        -moz-align-items: -moz-flex-start;
+        -webkit-align-items: -webkit-flex-start;
+        -ms-align-items: -ms-flex-start;
+        align-items: flex-start;
+    }
 
 				.spotlight.style2 .image {
 					width: 15.75rem;
@@ -5220,28 +5220,28 @@ form > .fields > .field.third {
 
 /* Spotlight (style3) */
 
-	.spotlight.style3 {
-		padding: 7rem 7rem 5rem 7rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: row-reverse;
-		-webkit-flex-direction: row-reverse;
-		-ms-flex-direction: row-reverse;
-		flex-direction: row-reverse;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		position: relative;
-		overflow-x: hidden;
-		text-align: left;
-	}
+.spotlight.style3 {
+    padding: 7rem 7rem 5rem 7rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+}
 
 		.spotlight.style3 .content {
 			width: 44.5rem;
@@ -5315,25 +5315,25 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlight.style3 {
-				padding: 5rem 5rem 3rem 5rem ;
-			}
+    .spotlight.style3 {
+        padding: 5rem 5rem 3rem 5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight.style3 {
-				padding: 4rem 4rem 2rem 4rem ;
-			}
+    .spotlight.style3 {
+        padding: 4rem 4rem 2rem 4rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.spotlight.style3 {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
-			}
+    .spotlight.style3 {
+        padding: 3.75rem 3rem 1.75rem 3rem;
+    }
 
 				.spotlight.style3 .image {
 					width: 11.375rem;
@@ -5360,13 +5360,13 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style3 {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
-				-moz-align-items: -moz-flex-start;
-				-webkit-align-items: -webkit-flex-start;
-				-ms-align-items: -ms-flex-start;
-				align-items: flex-start;
-			}
+    .spotlight.style3 {
+        padding: 2.5rem 2rem 0.5rem 2rem;
+        -moz-align-items: -moz-flex-start;
+        -webkit-align-items: -webkit-flex-start;
+        -ms-align-items: -ms-flex-start;
+        align-items: flex-start;
+    }
 
 				.spotlight.style3 .image {
 					width: 8.125rem;
@@ -5469,36 +5469,36 @@ form > .fields > .field.third {
 
 /* Spotlight (style4) */
 
-	.spotlight.style4 {
-		padding: 7rem 5.25rem 5rem 5.25rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background-color: inherit;
-		position: relative;
-		overflow-x: hidden;
-		text-align: center;
-	}
+.spotlight.style4 {
+    padding: 7rem 5.25rem 5rem 5.25rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-color: inherit;
+    position: relative;
+    overflow-x: hidden;
+    text-align: center;
+}
 
-		.spotlight.style4 .content {
-			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-			position: relative;
-			width: 40rem;
-			max-width: 50%;
-			background-color: inherit;
-			border-radius: 0.5rem;
-			margin-bottom: 2rem;
-			z-index: 1;
-		}
+.spotlight.style4 .content {
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    position: relative;
+    width: 40rem;
+    max-width: 50%;
+    background-color: inherit;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
 
 		.spotlight.style4 .image {
 			-moz-flex-grow: 0;
@@ -5537,49 +5537,49 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlight.style4 {
-				padding: 5rem 3.75rem 3rem 3.75rem ;
-			}
+    .spotlight.style4 {
+        padding: 5rem 3.75rem 3rem 3.75rem;
+    }
 
-				.spotlight.style4 .content {
-					padding: 2.5rem 2.5rem 0.5rem 2.5rem ;
-				}
+    .spotlight.style4 .content {
+        padding: 2.5rem 2.5rem 0.5rem 2.5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight.style4 {
-				padding: 4rem 3rem 2rem 3rem ;
-			}
+    .spotlight.style4 {
+        padding: 4rem 3rem 2rem 3rem;
+    }
 
-				.spotlight.style4 .content {
-					padding: 3rem 3rem 1rem 3rem ;
-				}
+    .spotlight.style4 .content {
+        padding: 3rem 3rem 1rem 3rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.spotlight.style4 {
-				padding: 3rem 2.25rem 1rem 2.25rem ;
-			}
+    .spotlight.style4 {
+        padding: 3rem 2.25rem 1rem 2.25rem;
+    }
 
-				.spotlight.style4 .content {
-					padding: 2.25rem 2.25rem 0.25rem 2.25rem ;
-				}
+    .spotlight.style4 .content {
+        padding: 2.25rem 2.25rem 0.25rem 2.25rem;
+    }
 
 		}
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style4 {
-				padding: 2rem 1.5rem 0.1rem 1.5rem ;
-			}
+    .spotlight.style4 {
+        padding: 2rem 1.5rem 0.1rem 1.5rem;
+    }
 
-				.spotlight.style4 .content {
-					padding: 1.5rem 1.5rem 0.1rem 1.5rem ;
-				}
+    .spotlight.style4 .content {
+        padding: 1.5rem 1.5rem 0.1rem 1.5rem;
+    }
 
 		}
 
@@ -5649,36 +5649,36 @@ form > .fields > .field.third {
 
 /* Spotlight (style5) */
 
-	.spotlight.style5 {
-		padding: 7rem 5.25rem 5rem 5.25rem ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background-color: inherit;
-		position: relative;
-		overflow-x: hidden;
-		text-align: center;
-	}
+.spotlight.style5 {
+    padding: 7rem 5.25rem 5rem 5.25rem;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-color: inherit;
+    position: relative;
+    overflow-x: hidden;
+    text-align: center;
+}
 
-		.spotlight.style5 .content {
-			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-			position: relative;
-			width: 40rem;
-			max-width: 52.5%;
-			background-color: inherit;
-			border-radius: 0.5rem;
-			margin-bottom: 2rem;
-			z-index: 1;
-		}
+.spotlight.style5 .content {
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    position: relative;
+    width: 40rem;
+    max-width: 52.5%;
+    background-color: inherit;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
 
 		.spotlight.style5 .image {
 			-moz-flex-grow: 0;
@@ -5717,49 +5717,49 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 1680px) {
 
-			.spotlight.style5 {
-				padding: 5rem 3.75rem 3rem 3.75rem ;
-			}
+    .spotlight.style5 {
+        padding: 5rem 3.75rem 3rem 3.75rem;
+    }
 
-				.spotlight.style5 .content {
-					padding: 2.5rem 2.5rem 0.5rem 2.5rem ;
-				}
+    .spotlight.style5 .content {
+        padding: 2.5rem 2.5rem 0.5rem 2.5rem;
+    }
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight.style5 {
-				padding: 4rem 3rem 2rem 3rem ;
-			}
+    .spotlight.style5 {
+        padding: 4rem 3rem 2rem 3rem;
+    }
 
-				.spotlight.style5 .content {
-					padding: 3rem 3rem 1rem 3rem ;
-				}
+    .spotlight.style5 .content {
+        padding: 3rem 3rem 1rem 3rem;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.spotlight.style5 {
-				padding: 3rem 2.25rem 1rem 2.25rem ;
-			}
+    .spotlight.style5 {
+        padding: 3rem 2.25rem 1rem 2.25rem;
+    }
 
-				.spotlight.style5 .content {
-					padding: 2.25rem 2.25rem 0.25rem 2.25rem ;
-				}
+    .spotlight.style5 .content {
+        padding: 2.25rem 2.25rem 0.25rem 2.25rem;
+    }
 
 		}
 
 		@media screen and (max-width: 736px) {
 
-			.spotlight.style5 {
-				padding: 2rem 1.5rem 0.1rem 1.5rem ;
-			}
+    .spotlight.style5 {
+        padding: 2rem 1.5rem 0.1rem 1.5rem;
+    }
 
-				.spotlight.style5 .content {
-					padding: 1.5rem 1.5rem 0.1rem 1.5rem ;
-				}
+    .spotlight.style5 .content {
+        padding: 1.5rem 1.5rem 0.1rem 1.5rem;
+    }
 
 		}
 
@@ -6700,19 +6700,18 @@ form > .fields > .field.third {
 
 /* Gallery (style2) */
 
-	.gallery.style2 {
-		color: rgb(255, 255, 255);
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-webkit-overflow-scrolling: touch;
-		position: relative;
-		background-color: transparent;
-		/*height: 645px;*/
-		/*max-height: 65vh;*/
-		;
-	}
+.gallery.style2 {
+    color: rgb(255, 255, 255);
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    background-color: transparent;
+    /*height: 645px;*/
+    /*max-height: 65vh;*/;
+}
 
 		.gallery.style2 input, .gallery.style2 select, .gallery.style2 textarea {
 			color: rgb(255, 255, 255);
@@ -7235,12 +7234,12 @@ form > .fields > .field.third {
 
 /* Wrapper (style1) */
 
-	.wrapper.style1 > .inner {
-		padding: 7rem 3.5rem 5rem 3.5rem ;
-		margin: 0 auto;
-		max-width: 100%;
-		width: 64rem;
-	}
+.wrapper.style1 > .inner {
+    padding: 7rem 3.5rem 5rem 3.5rem;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 64rem;
+}
 
 		.wrapper.style1 > .inner.medium {
 			width: 48rem;
@@ -7252,33 +7251,33 @@ form > .fields > .field.third {
 
 	@media screen and (max-width: 1680px) {
 
-		.wrapper.style1 > .inner {
-			padding: 5rem 2.5rem 3rem 2.5rem ;
-		}
+    .wrapper.style1 > .inner {
+        padding: 5rem 2.5rem 3rem 2.5rem;
+    }
 
 	}
 
 	@media screen and (max-width: 1280px) {
 
-		.wrapper.style1 > .inner {
-			padding: 4rem 4rem 2rem 4rem ;
-		}
+    .wrapper.style1 > .inner {
+        padding: 4rem 4rem 2rem 4rem;
+    }
 
 	}
 
 	@media screen and (max-width: 980px) {
 
-		.wrapper.style1 > .inner {
-			padding: 4.5rem 3rem 2.5rem 3rem ;
-		}
+    .wrapper.style1 > .inner {
+        padding: 4.5rem 3rem 2.5rem 3rem;
+    }
 
 	}
 
 	@media screen and (max-width: 736px) {
 
-		.wrapper.style1 > .inner {
-			padding: 3rem 2rem 1rem 2rem ;
-		}
+    .wrapper.style1 > .inner {
+        padding: 3rem 2rem 1rem 2rem;
+    }
 
 	}
 
@@ -7289,16 +7288,16 @@ form > .fields > .field.third {
 		background-color: rgb(238, 238, 238);
 	}
 
-		.wrapper.style2 > .inner {
-			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
-			background-color: rgb(255, 255, 255);
-			border-radius: 0.5rem;
-			margin: 0 auto;
-			max-width: 100%;
-			position: relative;
-			width: 64rem;
-			z-index: 1;
-		}
+.wrapper.style2 > .inner {
+    padding: 5.25rem 3.5rem 3.25rem 3.5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    width: 64rem;
+    z-index: 1;
+}
 
 			.wrapper.style2 > .inner.medium {
 				width: 48rem;
@@ -7314,9 +7313,9 @@ form > .fields > .field.third {
 				padding: 5rem;
 			}
 
-				.wrapper.style2 > .inner {
-					padding: 3.75rem 2.5rem 1.75rem 2.5rem ;
-				}
+    .wrapper.style2 > .inner {
+        padding: 3.75rem 2.5rem 1.75rem 2.5rem;
+    }
 
 		}
 
@@ -7326,9 +7325,9 @@ form > .fields > .field.third {
 				padding: 4rem;
 			}
 
-				.wrapper.style2 > .inner {
-					padding: 3rem 2rem 1rem 2rem ;
-				}
+    .wrapper.style2 > .inner {
+        padding: 3rem 2rem 1rem 2rem;
+    }
 
 		}
 
@@ -7338,9 +7337,9 @@ form > .fields > .field.third {
 				padding: 2.25rem;
 			}
 
-				.wrapper.style2 > .inner {
-					padding: 3rem 2.25rem 1rem 2.25rem ;
-				}
+    .wrapper.style2 > .inner {
+        padding: 3rem 2.25rem 1rem 2.25rem;
+    }
 
 		}
 
@@ -7350,9 +7349,9 @@ form > .fields > .field.third {
 				padding: 1.5rem;
 			}
 
-				.wrapper.style2 > .inner {
-					padding: 2rem 1.5rem 0.1rem 1.5rem ;
-				}
+    .wrapper.style2 > .inner {
+        padding: 2rem 1.5rem 0.1rem 1.5rem;
+    }
 
 		}
 
@@ -7667,10 +7666,10 @@ form > .fields > .field.third {
 			border-top-width: 1px;
 		}
 
-		.items.style1.big > * {
-			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-			width: 50%;
-		}
+.items.style1.big > * {
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    width: 50%;
+}
 
 			.items.style1.big > *:nth-child(-n + 2) {
 				border-top-width: 0;
@@ -7680,10 +7679,10 @@ form > .fields > .field.third {
 				border-left-width: 0;
 			}
 
-		.items.style1.medium > * {
-			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
-			width: 33.33333%;
-		}
+.items.style1.medium > * {
+    padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem;
+    width: 33.33333%;
+}
 
 			.items.style1.medium > *:nth-child(-n + 3) {
 				border-top-width: 0;
@@ -7693,10 +7692,10 @@ form > .fields > .field.third {
 				border-left-width: 0;
 			}
 
-		.items.style1.small > * {
-			padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-			width: 25%;
-		}
+.items.style1.small > * {
+    padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem;
+    width: 25%;
+}
 
 			.items.style1.small > *:nth-child(-n + 4) {
 				border-top-width: 0;
@@ -7716,10 +7715,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style1.small > * {
-				padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
-				width: 33.33333%;
-			}
+    .items.style1.small > * {
+        padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem;
+        width: 33.33333%;
+    }
 
 				.items.style1.small > *:nth-child(-n + 3) {
 					border-top-width: 0;
@@ -7741,10 +7740,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style1.medium > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-				width: 50%;
-			}
+    .items.style1.medium > * {
+        padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+        width: 50%;
+    }
 
 				.items.style1.medium > *:nth-child(-n + 2) {
 					border-top-width: 0;
@@ -7762,10 +7761,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style1.small > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-				width: 50%;
-			}
+    .items.style1.small > * {
+        padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+        width: 50%;
+    }
 
 				.items.style1.small > *:nth-child(-n + 2) {
 					border-top-width: 0;
@@ -7787,10 +7786,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style1.big > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
-			}
+    .items.style1.big > * {
+        padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+        width: 100%;
+    }
 
 				.items.style1.big > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -7808,10 +7807,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style1.medium > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
-			}
+    .items.style1.medium > * {
+        padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+        width: 100%;
+    }
 
 				.items.style1.medium > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -7829,10 +7828,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style1.small > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
-			}
+    .items.style1.small > * {
+        padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+        width: 100%;
+    }
 
 				.items.style1.small > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -7896,10 +7895,10 @@ form > .fields > .field.third {
 			border-top-width: 1px;
 		}
 
-		.items.style2.big > * {
-			padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-			width: 50%;
-		}
+.items.style2.big > * {
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    width: 50%;
+}
 
 			.items.style2.big > *:nth-child(-n + 2) {
 				border-top-width: 0;
@@ -7909,10 +7908,10 @@ form > .fields > .field.third {
 				border-left-width: 0;
 			}
 
-		.items.style2.medium > * {
-			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
-			width: 33.33333%;
-		}
+.items.style2.medium > * {
+    padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem;
+    width: 33.33333%;
+}
 
 			.items.style2.medium > *:nth-child(-n + 3) {
 				border-top-width: 0;
@@ -7922,10 +7921,10 @@ form > .fields > .field.third {
 				border-left-width: 0;
 			}
 
-		.items.style2.small > * {
-			padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-			width: 25%;
-		}
+.items.style2.small > * {
+    padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem;
+    width: 25%;
+}
 
 			.items.style2.small > *:nth-child(-n + 4) {
 				border-top-width: 0;
@@ -7945,10 +7944,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style2.small > * {
-				padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
-				width: 33.33333%;
-			}
+    .items.style2.small > * {
+        padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem;
+        width: 33.33333%;
+    }
 
 				.items.style2.small > *:nth-child(-n + 3) {
 					border-top-width: 0;
@@ -7970,10 +7969,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style2.medium > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-				width: 50%;
-			}
+    .items.style2.medium > * {
+        padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+        width: 50%;
+    }
 
 				.items.style2.medium > *:nth-child(-n + 2) {
 					border-top-width: 0;
@@ -7991,10 +7990,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style2.small > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
-				width: 50%;
-			}
+    .items.style2.small > * {
+        padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+        width: 50%;
+    }
 
 				.items.style2.small > *:nth-child(-n + 2) {
 					border-top-width: 0;
@@ -8016,10 +8015,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style2.big > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
-			}
+    .items.style2.big > * {
+        padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+        width: 100%;
+    }
 
 				.items.style2.big > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -8037,10 +8036,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style2.medium > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
-			}
+    .items.style2.medium > * {
+        padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+        width: 100%;
+    }
 
 				.items.style2.medium > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -8058,10 +8057,10 @@ form > .fields > .field.third {
 				border-left-width: 1px;
 			}
 
-			.items.style2.small > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
-				width: 100%;
-			}
+    .items.style2.small > * {
+        padding: 2.625rem 2.625rem 0.625rem 2.625rem;
+        width: 100%;
+    }
 
 				.items.style2.small > *:nth-child(-n + 1) {
 					border-top-width: 0;
@@ -8103,41 +8102,41 @@ form > .fields > .field.third {
 			flex-shrink: 0;
 		}
 
-		.items.style3.big > * {
-			padding: 1.75rem 1.75rem 0.1rem 1.75rem ;
-			width: 50%;
-		}
+.items.style3.big > * {
+    padding: 1.75rem 1.75rem 0.1rem 1.75rem;
+    width: 50%;
+}
 
-		.items.style3.medium > * {
-			padding: 1.09375rem 1.09375rem 0.1rem 1.09375rem ;
-			width: 33.33333%;
-		}
+.items.style3.medium > * {
+    padding: 1.09375rem 1.09375rem 0.1rem 1.09375rem;
+    width: 33.33333%;
+}
 
-		.items.style3.small > * {
-			padding: 0.65625rem 0.65625rem 0.1rem 0.65625rem ;
-			width: 25%;
-		}
+.items.style3.small > * {
+    padding: 0.65625rem 0.65625rem 0.1rem 0.65625rem;
+    width: 25%;
+}
 
 		@media screen and (max-width: 1280px) {
 
-			.items.style3.small > * {
-				padding: 1.09375rem 1.09375rem 0.1rem 1.09375rem ;
-				width: 33.33333%;
-			}
+    .items.style3.small > * {
+        padding: 1.09375rem 1.09375rem 0.1rem 1.09375rem;
+        width: 33.33333%;
+    }
 
 		}
 
 		@media screen and (max-width: 980px) {
 
-			.items.style3.medium > * {
-				padding: 1.75rem 1.75rem 0.1rem 1.75rem ;
-				width: 50%;
-			}
+    .items.style3.medium > * {
+        padding: 1.75rem 1.75rem 0.1rem 1.75rem;
+        width: 50%;
+    }
 
-			.items.style3.small > * {
-				padding: 1.75rem 1.75rem 0.1rem 1.75rem ;
-				width: 50%;
-			}
+    .items.style3.small > * {
+        padding: 1.75rem 1.75rem 0.1rem 1.75rem;
+        width: 50%;
+    }
 
 		}
 
@@ -8151,20 +8150,20 @@ form > .fields > .field.third {
 
 		@media screen and (max-width: 480px) {
 
-			.items.style3.big > * {
-				padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-				width: 100%;
-			}
+    .items.style3.big > * {
+        padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem;
+        width: 100%;
+    }
 
-			.items.style3.medium > * {
-				padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-				width: 100%;
-			}
+    .items.style3.medium > * {
+        padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem;
+        width: 100%;
+    }
 
-			.items.style3.small > * {
-				padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem ;
-				width: 100%;
-			}
+    .items.style3.small > * {
+        padding: 1.3125rem 1.3125rem 0.1rem 1.3125rem;
+        width: 100%;
+    }
 
 			.items.style3.big > *, .items.style3.medium > *, .items.style3.small > * {
 				padding-left: 0;
@@ -8199,14 +8198,14 @@ form > .fields > .field.third {
 
 /* Index */
 
-	.index > * {
-		padding: 3rem 0 1rem 0 ;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		border-top: solid 1px;
-	}
+.index > * {
+    padding: 3rem 0 1rem 0;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    border-top: solid 1px;
+}
 
 		.index > * > header {
 			-moz-flex-grow: 0;
