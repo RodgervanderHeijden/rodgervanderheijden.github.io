@@ -8623,3 +8623,48 @@ form > .fields > .field.third {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+.z-index-5 {
+	position: relative;
+	z-index: 5;
+}
+  
+.reveal-text-container {
+	transform: rotate(-15deg);
+	position: relative;
+	/* top: -15vh; */
+	/* left: -12vw; */
+	text-align: center;
+	opacity: 0.9;
+	white-space: nowrap;
+	margin-top: -9%;
+	margin-bottom: 8%;
+}
+
+.reveal-text {
+	font-family: 'Caveat', cursive;
+	font-size: 72px;
+	position: relative;
+	color: brown; 
+  }
+  
+  .reveal-text-container .reveal-bg {
+	position: absolute;
+	height: 100%;
+	background: white;
+	animation: revealText 3000ms forwards;
+  }
+  
+  @keyframes revealText {
+
+	0% {
+	  width: 105%;
+	  left: 0;
+	}
+  
+	100% {
+	  width: 0%;
+	  left: 105%;
+	}
+  }
