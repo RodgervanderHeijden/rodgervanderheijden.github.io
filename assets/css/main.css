@@ -8644,7 +8644,8 @@ form > .fields > .field.third {
 
 .reveal-text {
 	font-family: 'Caveat', cursive;
-	font-size: 72px;
+	/* font-size: 72px; */
+	font-size: calc(8px + 4vw);
 	position: relative;
 	color: brown; 
   }
@@ -8653,13 +8654,13 @@ form > .fields > .field.third {
 	position: absolute;
 	height: 100%;
 	background: white;
-	animation: revealText 3000ms forwards;
+	animation: revealText 2000ms forwards;
   }
   
   @keyframes revealText {
 
 	0% {
-	  width: 105%;
+	  width: calc(105% + 160px);
 	  left: 0;
 	}
   
