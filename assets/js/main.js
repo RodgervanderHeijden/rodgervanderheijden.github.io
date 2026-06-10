@@ -225,6 +225,69 @@
 
 				});
 
+		// Duplicate gallery content for seamless infinite scroll.
+			$('.gallery.style2 > .inner').each(function() {
+				var $inner = $(this);
+				var $articles = $inner.children('article');
+				if ($articles.length > 0) {
+					$articles.clone().appendTo($inner);
+				}
+			});
+
+		// Auto-scroll gallery (infinite loop).
+			$('.gallery.style2').each(function() {
+				var $gallery = $(this),
+					$inner = $gallery.children('.inner');
+				
+				if ($inner.length === 0) return;
+
+				var autoScrollInterval,
+					isAutoScrolling = false;
+
+				function startAutoScroll() {
+					if (isAutoScrolling) return;
+					isAutoScrolling = true;
+					autoScrollInterval = setInterval(function() {
+						var currentScroll = $inner.scrollLeft();
+						var maxScroll = $inner[0].scrollWidth / 2;
+
+						// If we've scrolled past half (the original content), jump back to start
+						if (currentScroll >= maxScroll) {
+							$inner.scrollLeft( currentScroll - maxScroll );
+						} else {
+							$inner.scrollLeft( currentScroll + 1 );
+						}
+					}, 30);
+				}
+
+				function stopAutoScroll() {
+					if (!isAutoScrolling) return;
+					isAutoScrolling = false;
+					clearInterval(autoScrollInterval);
+				}
+
+				// Start auto-scrolling
+				startAutoScroll();
+
+				// Stop on user interaction
+				$inner.on('mouseenter touchstart', function() {
+					stopAutoScroll();
+				});
+
+				$inner.on('mouseleave touchend', function() {
+					startAutoScroll();
+				});
+
+				// Also stop when hovering forward/backward buttons
+				$gallery.on('mouseenter', '.forward, .backward', function() {
+					stopAutoScroll();
+				});
+
+				$gallery.on('mouseleave', '.forward, .backward', function() {
+					startAutoScroll();
+				});
+			});
+
 		// Lightbox.
 			$('.gallery.lightbox')
 				.on('click', 'a', function(event) {
@@ -338,5 +401,29 @@
 							}, 275);
 
 						});
+
+	// Language toggle functionality.
+		var $langToggle = $('#lang-toggle');
+		var $langLabels = $('.lang-label');
+		var $langEn = $('.lang-en');
+		var $langNl = $('.lang-nl');
+
+		function setLanguage(isDutch) {
+			$langLabels.removeClass('active');
+			if (isDutch) {
+				$langEn.hide();
+				$langNl.show();
+				$('.lang-label-nl').addClass('active');
+			} else {
+				$langEn.show();
+				$langNl.hide();
+				$('.lang-label-en').addClass('active');
+			}
+		}
+
+		$langLabels.on('click', function() {
+			var lang = $(this).data('lang');
+			setLanguage(lang === 'nl');
+		});
 
 })(jQuery);

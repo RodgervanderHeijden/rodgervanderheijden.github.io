@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 /*
 	Story by HTML5 UP
@@ -72,6 +71,45 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+/* Language Toggle */
+#lang-toggle {
+	position: fixed;
+	top: 1.5rem;
+	right: 1.5rem;
+	z-index: 10000;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+.lang-label {
+	font-size: 0.65rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #bbb;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.lang-label.active {
+	color: #000;
+	font-weight: 600;
+}
+.lang-label:hover {
+	color: #666;
+}
+.lang-separator {
+	font-size: 0.65rem;
+	color: #ccc;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* Basic */
