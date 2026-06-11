@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Rodger van der Heijden: Verbatim</title>
+    <link rel="icon" type="image/x-icon" href="/favicon-32.png">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+
+        <!-- One -->
+        <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+            <div class="content">
+                <h1>Verbatim</h1>
+                <p class="major">Rote memorization with flashcards is tedious, yet diving straight into native literature is often overwhelmingly difficult. Furthermore, most language apps force you down a rigid path and fail to account for vocabulary you pick up in the real world. To take back control of the learning process, I built a language-agnostic reading platform that lets users read real stories while intelligently tracking their vocabulary. By analyzing texts on the fly and integrating contextual dictionary data, the app transforms frustrating dictionary lookups into a seamless, data-driven learning experience.</p>
+
+                <ul class="actions">
+                    <li><a href="#first" class="button smooth-scroll-middle">Read about the challenge</a></li>
+                    <li><a href="index.html" class="button">Return to homepage</a></li>
+                </ul>
+            </div>
+            <div class="image">
+                <!-- Placeholder for Hero Image -->
+                <div style="width: 100%; height: 100%; background-color: #333; display: flex; align-items: center; justify-content: center; color: #888;">[ Hero Image Placeholder ]</div>
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in onscroll-image-fade-right onscroll-content-fade-left" id="first">
+            <div class="content">
+                <h2>The challenge</h2>
+                <p>Language learning often follows a frustrating trajectory. In the beginning, structured apps are great for building foundational vocabulary. However, most learners eventually hit a plateau: rehearsing isolated words becomes painfully boring, but picking up a real book means pausing every few sentences to look up unknown words.</p>
+                <p>Furthermore, I had a persistent gripe with existing platforms: they dictate your curriculum and completely ignore the vocabulary you learn through external means, like watching a movie or conversing with a native speaker. I needed a tool that gave me full control over my learning path—one that could bridge the gap between structured study and native texts, while respecting and accommodating the knowledge I acquire outside the app.</p>
+            </div>
+            <div class="image">
+                <!-- Placeholder for Challenge Screenshot -->
+                <div style="width: 100%; height: 100%; background-color: #444; display: flex; align-items: center; justify-content: center; color: #888;">[ Challenge Image Placeholder ]</div>
+            </div>
+        </section>
+
+        <!-- Three -->
+        <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onscroll-image-fade-left onscroll-content-fade-right">
+            <div class="content">
+                <h2>Architecting a smart reading app</h2>
+                <p>To solve this, I built Verbatim, a full-stack web application developed in Python with Flask and SQLite. The core functionality required parsing raw texts into structured data—breaking stories down not just into words, but respecting sentence boundaries to ensure clean, readable page breaks.</p>
+                <p>To make the app truly intelligent, I engineered a backend vocabulary management system. It tracks every word a user encounters, allowing them to instantly mark words as "known"—whether learned in-app or out in the wild. To populate definitions and example sentences efficiently, I built pipelines that ingest data from open-source dictionary extracts and sentence corpora. Because text processing and dictionary lookups can be resource-intensive, I implemented a background worker system to handle the ingestion of new stories asynchronously, keeping the user interface highly responsive.</p>
+            </div>
+            <div class="image">
+                <!-- Placeholder for Architecture or App Screenshot -->
+                <div style="width: 100%; height: 100%; background-color: #555; display: flex; align-items: center; justify-content: center; color: #888;">[ App Screenshot Placeholder ]</div>
+            </div>
+        </section>
+
+        <!-- Four -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in onscroll-image-fade-right onscroll-content-fade-left">
+            <div class="content">
+                <h2>The outcome</h2>
+                <p>The result is an interactive library built from the ground up to be language-agnostic. Readers can import their own reading material, dive into a story, click unfamiliar words to save them, and effortlessly track their reading analytics via a personalized dashboard.</p>
+                <p>By managing state efficiently and presenting vocabulary within its actual context, Verbatim lowers the barrier to entry for reading foreign texts. It puts the user in the driver's seat of their own curriculum, taking the guesswork out of progress tracking and turning the daunting task of reading a new language into a measurable, engaging habit.</p>
+            </div>
+            <div class="image">
+                <!-- Placeholder for Outcome/Dashboard Screenshot -->
+                <div style="width: 100%; height: 100%; background-color: #444; display: flex; align-items: center; justify-content: center; color: #888;">[ Dashboard Screenshot Placeholder ]</div>
+            </div>
+        </section>
+
+        <!-- Five (Demo placeholder) -->
+        <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in onscroll-image-fade-left onscroll-content-fade-right">
+            <div class="content">
+                <h2>See it in action</h2>
+                <p>Check out the recorded demo below to see how Verbatim provides a seamless, data-driven reading experience, allowing for efficient in-context vocabulary learning.</p>
+            </div>
+            <div class="image">
+                <!-- Placeholder for Video Demo -->
+                <div style="width: 100%; height: 100%; background-color: #222; display: flex; align-items: center; justify-content: center; color: #888;">[ Video Demo Placeholder ]</div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
