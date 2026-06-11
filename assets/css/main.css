@@ -1,5 +1,4 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 /*
 	Story by HTML5 UP
@@ -72,6 +71,45 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+/* Language Toggle */
+#lang-toggle {
+	position: fixed;
+	top: 1.5rem;
+	right: 1.5rem;
+	z-index: 10000;
+	display: flex;
+	align-items: center;
+	gap: 0.4rem;
+}
+.lang-label {
+	font-size: 0.65rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #bbb;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.lang-label.active {
+	color: #000;
+	font-weight: 600;
+}
+.lang-label:hover {
+	color: #666;
+}
+.lang-separator {
+	font-size: 0.65rem;
+	color: #ccc;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* Basic */
@@ -8647,25 +8685,53 @@ form > .fields > .field.third {
 	/* font-size: 72px; */
 	font-size: calc(8px + 4vw);
 	position: relative;
-	color: brown; 
+	color: brown;
+	display: inline-block;
   }
   
   .reveal-text-container .reveal-bg {
 	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 	height: 100%;
+	width: 150%;
 	background: white;
+	clip-path: inset(0 0 0 0);
 	animation: revealText 2000ms forwards;
   }
   
   @keyframes revealText {
-
 	0% {
-	  width: calc(105% + 160px);
-	  left: 0;
+	  clip-path: inset(0 0 0 0);
 	}
-  
 	100% {
-	  width: 0%;
-	  left: 105%;
+	  clip-path: inset(0 0 0 100%);
 	}
   }
+
+/* Button row: horizontal alignment inside stacked actions */
+ul.actions.stacked.actions-horizontal {
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin-left: -1rem;
+}
+ul.actions.stacked.actions-horizontal li {
+	padding: 0 0 0 1rem;
+}
+
+/* Attention-grabbing "Go to the app" button */
+.button.button-primary-attention {
+	background-color: #000 !important;
+	color: #fff !important;
+	box-shadow: none !important;
+	font-weight: 700 !important;
+	border: 2px solid #000 !important;
+}
+.button.button-primary-attention:hover {
+	background-color: #47d3e5 !important;
+	border-color: #47d3e5 !important;
+	color: #fff !important;
+}
